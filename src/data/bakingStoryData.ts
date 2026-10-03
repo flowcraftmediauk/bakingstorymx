@@ -1,3 +1,12 @@
+import heroCakeImg from '../assets/images/hero_korean_strawberry_cake_1791044876223.jpg';
+import introSpreadImg from '../assets/images/intro_about_bakery_spread_1791044895730.jpg';
+import bingsuMangoStrawberryImg from '../assets/images/bingsu_mango_strawberry_1791044911118.jpg';
+import bakeryBreadsImg from '../assets/images/bakery_korean_breads_1791044926878.jpg';
+import dessertPastryImg from '../assets/images/dessert_editorial_pastry_1791044943170.jpg';
+import coffeePairingImg from '../assets/images/coffee_latte_pairing_1791044957882.jpg';
+import bingsuChocolateCoffeeImg from '../assets/images/signature_chocolate_coffee_bingsu_1791044972364.jpg';
+import ctaFloralSweetImg from '../assets/images/cta_pastel_floral_sweet_1791044987085.jpg';
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -30,14 +39,14 @@ export interface OpeningHourEntry {
 }
 
 export const IMAGES = {
-  heroCake: '/src/assets/images/hero_korean_strawberry_cake_1791044876223.jpg',
-  introSpread: '/src/assets/images/intro_about_bakery_spread_1791044895730.jpg',
-  bingsuMangoStrawberry: '/src/assets/images/bingsu_mango_strawberry_1791044911118.jpg',
-  bakeryBreads: '/src/assets/images/bakery_korean_breads_1791044926878.jpg',
-  dessertPastry: '/src/assets/images/dessert_editorial_pastry_1791044943170.jpg',
-  coffeePairing: '/src/assets/images/coffee_latte_pairing_1791044957882.jpg',
-  bingsuChocolateCoffee: '/src/assets/images/signature_chocolate_coffee_bingsu_1791044972364.jpg',
-  ctaFloralSweet: '/src/assets/images/cta_pastel_floral_sweet_1791044987085.jpg',
+  heroCake: heroCakeImg,
+  introSpread: introSpreadImg,
+  bingsuMangoStrawberry: bingsuMangoStrawberryImg,
+  bakeryBreads: bakeryBreadsImg,
+  dessertPastry: dessertPastryImg,
+  coffeePairing: coffeePairingImg,
+  bingsuChocolateCoffee: bingsuChocolateCoffeeImg,
+  ctaFloralSweet: ctaFloralSweetImg,
 } as const;
 
 export const BUSINESS_INFO = {

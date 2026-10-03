@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { UtensilsCrossed } from 'lucide-react';
 
 interface ResilientImageProps {
@@ -19,6 +19,10 @@ export const ResilientImage: React.FC<ResilientImageProps> = ({
   fallbackLabel = 'Baking Story',
 }) => {
   const [hasError, setHasError] = useState(false);
+
+  useEffect(() => {
+    setHasError(false);
+  }, [src]);
 
   return (
     <div
