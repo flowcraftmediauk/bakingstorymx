@@ -1,0 +1,6 @@
+{
+  "name": "Baking Story | Bakery & Café in Mexico City",
+  "description": "Discover Baking Story in Juárez, Mexico City — a Korean-inspired bakery and café featuring breads, desserts, bingsu and coffee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
